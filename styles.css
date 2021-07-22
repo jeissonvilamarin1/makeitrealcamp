@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  overflow: hidden;
+}
+.hero {
+  justify-content: center;
+  display: grid;
+  grid-template-rows: repeat(2, 50vh);
+  grid-area: auto;
+  row-gap: 2rem;
+}
+.hero .round-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero img {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.hero h1 {
+  font-size: 4em;
+  font-family: "Gochi Hand", cursive;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero h2 {
+  font-size: 3em;
+  font-family: "Gochi Hand", cursive;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
